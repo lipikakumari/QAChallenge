@@ -10,7 +10,7 @@ import static io.restassured.config.EncoderConfig.encoderConfig;
 import static org.hamcrest.Matchers.equalTo;
 
 
-public class lightBulbApiTest {
+public class LightBulbApiTest {
 
     private final  String userId ="937eb6c2-cd76-82be-affb-d833c85f19ed";
 
