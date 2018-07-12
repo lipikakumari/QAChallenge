@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-
 public class InvoicePage extends BasePage {
 
     @FindBy(xpath="//strong[text()='Booking Code']")
@@ -28,8 +27,5 @@ public class InvoicePage extends BasePage {
             e.getMessage();
             return false;
         }
-
     }
-
-
 }

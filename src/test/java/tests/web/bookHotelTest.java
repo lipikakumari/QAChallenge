@@ -23,8 +23,4 @@ public class bookHotelTest extends BaseDriver {
                         .waitForInvoiceToBeGenerated()
         );
     }
-
-
-
-
 }

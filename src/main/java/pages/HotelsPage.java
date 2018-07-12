@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
 import java.util.Iterator;
 import java.util.List;
 
@@ -26,6 +25,4 @@ public class HotelsPage extends BasePage {
         }
         return new HotelsDetailsPage(driver);
     }
-
-
 }

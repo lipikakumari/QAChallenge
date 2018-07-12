@@ -34,10 +34,4 @@ public class HotelsDetailsPage extends BasePage {
         firstBookNow.click();
         return new BookHotelPage(driver);
     }
-
-
-
-
-
-
 }
