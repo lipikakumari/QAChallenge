@@ -8,9 +8,6 @@ import static org.junit.Assert.assertTrue;
 
 public class BookHotelTest extends BaseDriver {
 
-
-
-
     @Test  //Should book hotel as Guest"
     public void bookHotelAsGuestWithDefaultValues() {
         assertTrue(
