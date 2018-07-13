@@ -9,6 +9,10 @@
   
 - Test report is generated in dir, /qa-challenge/target/surefire-reports
 
+## Bug report location 
+
+- QAChallenge-IssuesFound.txt
+
 ## Role applied for: QA Engineer
 
 ## Project Structure
