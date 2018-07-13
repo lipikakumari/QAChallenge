@@ -21,3 +21,6 @@ Web Test : /src/test/java/tests/web/BookHotelTest.java
   - Page Objects : /src/main/java/pages
 
 API Test : /src/test/java/tests/api/LightBulbApiTest.java
+
+## WIP..
+* Integrating jenkins docker image with the repo to enable CI 
