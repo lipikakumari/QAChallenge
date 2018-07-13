@@ -1,0 +1,70 @@
+Issue Discovered:
+
+Api (lightbulb page):
+
+Double click sends request twice instead of alternating the switch.
+
+
+
+
+
+Web (PhpTravels site):
+
+
+
+1.
+Go to hotels tab
+
+enter “sydney”(or any place not listed for hotels) in location .
+
+search : no results are found
+
+now click on Hotels tab again
+
+it clears the search filters and loads the hotels list.
+
+
+Expected : it should clear the search fields as well
+
+Actual: It doesn’t clear the search field , causing confusion for user
+
+
+
+2.
+Website responsiveness is broken for search page.
+
+example : 
+
+Elements misalign on changing the form factor
+
+Language support becomes inconsistent 
+
+
+
+3.
+Use safari to open the site
+
+Search for hotels in Singapore  
+
+
+expected : Hotels listed
+
+Result :  javascript error :syntaxError: Unexpected identifier 'values'
+
+
+
+4 .
+
+Click on view map on Hotels page
+
+Throws error : Uncaught ReferenceError: google is not defined
+
+
+
+5.
+
+check on any star grade in filters.
+
+there is no way to uncheck this , user needs to reload the page to clear this flyer
+
+also its  a radio button , instead of checkbox
