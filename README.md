@@ -5,7 +5,7 @@
 - Clone the repo and checkout branch "feature/lipika-QloyalCodeTest"
 - Run 'mvn test' to excute both web and api tests
   - 'mvn test -Pweb' for running only web test
-  - 'mvn test -Papi' for running only web test
+  - 'mvn test -Papi' for running only api test
   
 - Test report is generated in dir, /qa-challenge/target/surefire-reports
 
